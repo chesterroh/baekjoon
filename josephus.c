@@ -63,7 +63,6 @@ int main( int argc, char ** argv){
 
 Node * node_alloc( void ){
     Node *p;
-
     p= (Node*)malloc(sizeof(Node));
 
     if(!p){
